@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Practical2</string>
+    <string name="animallist">AnimalList</string>
+    <string name="emperor_penguin">Emperor Penguin</string>
+    <string name="elephant_seal">Elephant Seal</string>
+    <string name="eastern_bluebird">Eastern Bluebird</string>
+    <string name="english_cream_golden_retriever">English Cream Golden Retriever</string>
+    <string name="fallow_deer">Fallow Deer</string>
+    <string name="fur_seal">Fur Seal</string>
+    <string name="fishing_cat">Fishing Cat</string>
+    <string name="fennec_fox">Fennec Fox</string>
+    <string name="flat_coated_retrievers">Flat-Coated Retrievers</string>
+    <string name="eagle">Eagle</string>
+</resources>

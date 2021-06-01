@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textViewAnimalList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/animallist" />
+
+    <TextView
+        android:id="@+id/textViewAnimal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eagle"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/emperor_penguin"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/elephant_seal"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eastern_bluebird"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/english_cream_golden_retriever"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fallow_deer"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fur_seal"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fishing_cat"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fennec_fox"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textViewAnimal10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/flat_coated_retrievers"
+        android:gravity="center"/>
+</LinearLayout>
