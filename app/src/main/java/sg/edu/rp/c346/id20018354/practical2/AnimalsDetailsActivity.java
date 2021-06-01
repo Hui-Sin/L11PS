@@ -21,6 +21,7 @@ public class AnimalsDetailsActivity extends AppCompatActivity {
     TextView Weights;
     TextView Link;
     private float ourFontsize = 14f;
+    private float ourFontsize1 = 14f;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -70,8 +71,9 @@ public class AnimalsDetailsActivity extends AppCompatActivity {
 
         if (id == R.id.increase) {
             ourFontsize += 2f;
-            Names.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
-            Characteristic.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
+            ourFontsize1 += 2f;
+            Names.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize1);
+            Characteristic.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize1);
             Diets.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
             CName.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
             Weights.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
@@ -82,8 +84,9 @@ public class AnimalsDetailsActivity extends AppCompatActivity {
             return true;
         } else if (id == R.id.decrease) {
             ourFontsize -= 2f;
-            Names.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
-            Characteristic.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
+            ourFontsize1 -= 2f;
+            Names.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize1);
+            Characteristic.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize1);
             Diets.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
             CName.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
             Weights.setTextSize(TypedValue.COMPLEX_UNIT_SP, ourFontsize);
