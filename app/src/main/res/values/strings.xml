@@ -11,4 +11,5 @@
     <string name="fennec_fox">Fennec Fox</string>
     <string name="flat_coated_retrievers">Flat-Coated Retrievers</string>
     <string name="eagle">Eagle</string>
+    <string name="textview">TextView</string>
 </resources>

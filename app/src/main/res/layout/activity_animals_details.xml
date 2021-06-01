@@ -9,7 +9,7 @@
         android:id="@+id/textViewAnimalName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/textview"
         android:textSize="18sp"
         android:gravity="center"/>
 
@@ -17,19 +17,19 @@
         android:id="@+id/textViewDiet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
     <TextView
         android:id="@+id/textViewCommonName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
     <TextView
         android:id="@+id/textViewPhysicalCharacteristic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Physical Characteristic"
+        android:text="@string/textview"
         android:textSize="18sp"
         android:gravity="center"/>
 
@@ -37,23 +37,24 @@
         android:id="@+id/textViewSkinType"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
     <TextView
         android:id="@+id/textViewLifespan"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
     <TextView
         android:id="@+id/textViewWeight"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
+
     <TextView
         android:id="@+id/textViewLink"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/textview" />
 
 </LinearLayout>
