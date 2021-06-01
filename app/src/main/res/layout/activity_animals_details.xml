@@ -9,7 +9,9 @@
         android:id="@+id/textViewAnimalName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textSize="18sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/textViewDiet"
@@ -24,16 +26,12 @@
         android:text="TextView" />
 
     <TextView
-        android:id="@+id/textViewGroupType"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
-
-    <TextView
         android:id="@+id/textViewPhysicalCharacteristic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Physical Characteristic" />
+        android:text="Physical Characteristic"
+        android:textSize="18sp"
+        android:gravity="center"/>
 
     <TextView
         android:id="@+id/textViewSkinType"
