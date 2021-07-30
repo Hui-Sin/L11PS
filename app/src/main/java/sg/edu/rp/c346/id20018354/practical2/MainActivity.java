@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     TextView animal9;
     TextView animal10;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
