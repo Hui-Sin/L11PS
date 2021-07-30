@@ -15,7 +15,11 @@ public class MainActivity2 extends AppCompatActivity {
 
     ListView lvAnimal;
     ArrayList<Animals>alAnimalList;
+<<<<<<< HEAD
     ArrayAdapter aaAnimalList;
+=======
+    ArrayAdapter<Animals> aaAnimalList;
+>>>>>>> orgin/master
     ArrayList<Animals> alAnimalDetailList;
     CustomAdapter caAnimalDetailList;
     Animals animals;
@@ -74,7 +78,11 @@ public class MainActivity2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent intent = new Intent(MainActivity2.this, AnimalActivity.class);
+<<<<<<< HEAD
                 if (alAnimalDetailList.contains(alAnimalList.contains(animals.getNames()))) {
+=======
+                if (alAnimalList.contains(animals.getNames())==alAnimalDetailList.contains(animals.getNames())) {
+>>>>>>> orgin/master
                     Animals animal = alAnimalDetailList.get(position);
                     intent.putExtra("animals", animal);
                     startActivity(intent);
